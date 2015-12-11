@@ -1,0 +1,22 @@
+.cv {
+  &-item {
+    &-time {
+      font-size: $small-font-size;
+      color: $grey-color;
+    }
+    &-position {
+      font-size: $big-font-size;
+      font-weight: $big-font-widght;
+    }
+    &-organization {
+      font-size: $big-font-size;
+    }
+    &-link {
+      font-size: $small-font-size;
+      color: $grey-color;
+      &:visited {
+        color: $grey-color;
+      }
+    }
+  }
+}
