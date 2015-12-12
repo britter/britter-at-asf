@@ -10,10 +10,11 @@ title: britter at ASF
 email: britter@apache.org
 description: > # this means to ignore newlines until "baseurl:"
   Personal committer page of Benedikt Ritter
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://home.apache.org/~britter" # the base hostname & protocol for your site
+baseurl: "/~britter" # the subpath of your site, e.g. /blog
+url: "http://home.apache.org" # the base hostname & protocol for your site
 twitter_username: BenediktRitter
 github_username:  britter
 
 # Build settings
 markdown: kramdown
+exclude: [ upload.sh ]

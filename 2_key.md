@@ -5,7 +5,7 @@ permalink: /pgp-key/
 ---
 
 This is the PGP key I use for signing release artifacts at the ASF. You can also
-click [here](/9FCC82D0.asc) to download it as ASC file.
+click [here]({{ "/9FCC82D0.asc" | prepend: site.baseurl }}) to download it as ASC file.
 
 {% highlight plaintext %}
 -----BEGIN PGP PUBLIC KEY BLOCK-----
