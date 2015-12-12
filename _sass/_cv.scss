@@ -1,0 +1,28 @@
+.cv {
+  &-section:not(:last-child) {
+    border-bottom: 1px solid $grey-color-light;
+    margin-bottom: 15px
+  }
+  &-item {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    &-time {
+      font-size: $small-font-size;
+      color: $grey-color;
+    }
+    &-position {
+      font-size: $big-font-size;
+      font-weight: $big-font-widght;
+    }
+    &-organization {
+      font-size: $big-font-size;
+    }
+    &-link {
+      font-size: $small-font-size;
+      color: $grey-color;
+      &:visited {
+        color: $grey-color;
+      }
+    }
+  }
+}
