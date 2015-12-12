@@ -5,14 +5,17 @@ permalink: /curriculum-vitae/
 ---
 
 {% for section in site.data.cv %}
-<h1 class="cv-heading">{{ section.heading }}</h1>
+<div class="cv-section">
+  <h1 class="cv-heading">{{ section.heading }}</h1>
 
-{% for item in section.items %}
-<div class="cv-item">
-  <div class="cv-item-time">{{ item.time }}</div>
-  <div class="cv-item-position">{{ item.position }}</div>
-  <div class="cv-item-organization">{{ item.organization }}</div>
-  <div><a class="cv-item-link" href="http://{{ item.url }}">{{ item.url }}</a></div>
+  {% for item in section.items %}
+  <div class="cv-item">
+    <div class="cv-item-time">{{ item.time }}</div>
+    <div class="cv-item-position">{{ item.position }}</div>
+    <div class="cv-item-organization">{{ item.organization }}</div>
+    <div><a class="cv-item-link" href="http://{{ item.url }}">{{ item.url }}</a></div>
+  </div>
+  {% endfor %}
+
 </div>
-{% endfor %}
 {% endfor %}
