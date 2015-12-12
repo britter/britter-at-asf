@@ -1,0 +1,45 @@
+- heading: At the ASF
+  items:
+    - time: since 03/2015
+      position: Apache Member
+      organization: Apache Software Foundation
+      url: www.apache.org
+
+    - time: since 07/2013
+      position: Apache Commons PMC Member
+      organization: Apache Commons
+      url: commons.apache.org
+
+    - time: since 01/2013
+      position: Apache Commons Committer
+      organization: Apache Commons
+      url: commons.apache.org
+
+- heading: Professional Career
+  items:
+    - time: since 2013
+      position: Software Craftsman
+      organization: codecentric AG
+      url: www.codecentric.de
+
+    - time: 2011-2013
+      position: Software Engineer
+      organization: GBTEC Software + Consulting AG
+      url: www.gbtec.de
+
+    - time: 2009-2011
+      position: Research Assistant
+      organization: Research Group Information Systems and Enterprise Modeling
+      url: www.wi-inf.uni-duisburg-essen.de/FGFrank/
+
+- heading: Studies
+  items:
+    - time: 2010-2012
+      position: Master of Science, Information Systems Research
+      organization: University Duisburg-Essen
+      url: www.wi-inf.uni-duisburg-essen.de
+
+    - time: 2006-2010
+      position: Bachelor of Science, Information Systems Research
+      organization: Univeristy Duisburg-Essen
+      url: www.wi-inf.uni-duisburg-essen.de
