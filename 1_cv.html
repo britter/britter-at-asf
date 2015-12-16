@@ -11,10 +11,12 @@ permalink: /curriculum-vitae/
   <ol>
     {% for item in section.items %}
     <li class="cv-item">
-      <div class="cv-item-time">{{ item.time }}</div>
-      <div class="cv-item-position">{{ item.position }}</div>
-      <div class="cv-item-organization">{{ item.organization }}</div>
-      <div><a class="cv-item-link" href="http://{{ item.url }}">{{ item.url }}</a></div>
+      <p>
+        <span class="cv-item-time">{{ item.time }}</span><br/>
+        <span class="cv-item-position">{{ item.position }}</span><br/>
+        <span class="cv-item-organization">{{ item.organization }}</span><br/>
+        <a class="cv-item-link" href="http://{{ item.url }}">{{ item.url }}</a>
+      </p>
     </li>
     {% endfor %}
   </ol>
