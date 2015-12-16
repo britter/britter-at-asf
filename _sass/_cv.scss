@@ -6,19 +6,16 @@
   &-item {
     list-style: none;
     &-time {
-      font-size: $small-font-size;
-      color: $grey-color;
+      @include small-light-font;
     }
     &-position {
-      font-size: $big-font-size;
-      font-weight: $big-font-widght;
+      @include big-bold-font;
     }
     &-organization {
       font-size: $big-font-size;
     }
     &-link {
-      font-size: $small-font-size;
-      color: $grey-color;
+      @include small-light-font;
       &:visited {
         color: $grey-color;
       }

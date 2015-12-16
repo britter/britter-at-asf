@@ -30,7 +30,15 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+@mixin small-light-font {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
 
+@mixin big-bold-font {
+  font-size: $big-font-size;
+  font-weight: $big-font-widght;
+}
 
 // Use media queries like this:
 // @include media-query($on-palm) {
