@@ -17,4 +17,4 @@ github_username:  britter
 
 # Build settings
 markdown: kramdown
-exclude: [ upload.sh ]
+exclude: [ upload.sh, README.md ]
