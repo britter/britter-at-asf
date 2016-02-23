@@ -15,7 +15,7 @@ A library that provides a host of helper utilities for the
 If you're tied of writing code like
 
 {% highlight java %}
-if(myString != null && !myString.isEmpty()) {
+if (myString != null && !myString.isEmpty()) {
   // do something with myString
 }
 {% endhighlight %}
@@ -23,7 +23,7 @@ if(myString != null && !myString.isEmpty()) {
 then you should give Commons Lang a try and the above code will become
 
 {% highlight java %}
-if(StringUtils.isEmpty(myString)) {
+if (StringUtils.isEmpty(myString)) {
   // myString is not null and not empty
 }
 {% endhighlight %}
